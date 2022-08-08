@@ -94,7 +94,7 @@ p{
 
 #testimonials{
   text-align: center;
-  background-color: #ef8172;
+  background-color: #ff4c68;
   color: #fff;
 }
 
@@ -112,7 +112,7 @@ p{
 /* Press section */
 
 #press{
-  background-color: #ef8172;
+  background-color: #ff4c68;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -120,4 +120,16 @@ p{
 .press-logo{
   width: 10%;
   margin: 1.25rem 1.25rem 3.125rem;
+}
+
+
+/* Pricing section */
+
+#pricing{
+  padding: 6.25rem;
+  text-align: center;
+}
+
+.price-column{
+  padding: 3% 2%;
 }
