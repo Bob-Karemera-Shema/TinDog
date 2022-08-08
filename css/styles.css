@@ -1,12 +1,4 @@
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-#features{
-  text-align: center;
-}
-
+/* HTML classes */
 h1{
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
@@ -21,6 +13,17 @@ h3{
 
 body{
   font-family: "Montserrat";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Title section */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
 }
 
 .container-fluid{
@@ -62,15 +65,19 @@ body{
   transform: rotate(25deg);
 }
 
-.feature-description{
-  color: #8f8f8f;
-  width: 50%;
-  margin: auto;
+/* Features section */
+
+#features{
+  padding: 7% 15%;
+}
+
+.feature-item{
+  text-align: center;
 }
 
 .feature-icon{
   color: #ef8172;
-  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .feature-icon:hover{
